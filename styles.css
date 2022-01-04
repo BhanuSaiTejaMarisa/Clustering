@@ -1,0 +1,94 @@
+
+#container{
+    /* width: 320px;
+    height: 200px; */
+    border: 2px solid beige;
+    /* background-color: beige; */
+    border-radius: 8px;
+    padding:  100px 5% 20px;
+    padding-right: 10%;
+    display: flex;
+    
+}
+ #box, #box2{
+  
+    width: 250px;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border:2px solid brown;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 150px;
+
+}
+#box div, #box2 div{
+    border:2px solid brown;
+    width: 50%;
+}
+#heading{
+    text-align: center;
+}
+html{
+    font-family: sans-serif;
+}
+form {
+    margin: 0 auto;      
+}
+div {
+    margin-bottom: 10px;
+}
+fieldset {
+    border: 2px solid beige;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+legend {
+padding: 10px;
+border: 2px solid beige;
+background-color: beige;
+}
+#second{
+    display: flex;
+    margin:4% 10% 4%;
+    margin-right: 10%;
+  
+}
+#second>div:nth-child(1){
+    border:2px solid brown;
+    margin-right: 30%;
+}
+#second>div:nth-child(2){
+    width: 300px;
+}
+#third{
+    display: flex;
+    margin: 4% 6% 4%;
+}
+#third>div:nth-child(1){
+    border:2px solid brown;
+    margin-right: 4%;
+}
+#fourth{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#fourth>div:nth-child(4){
+    padding-top: 4%;
+}
+img{
+    width: 90%;
+}
+#box2{
+ display: none;
+}
+#nextPage{
+    text-align: center;
+}
+#fourth input{
+    width: 35px;
+}
