@@ -32,8 +32,12 @@ secondForm[1].style.display="none";
 
 var nextPageButton=document.getElementById("nextPageButton");
 nextPageButton.addEventListener("click",()=>{
-    window.location.href="./data%20analysis.html";
+    window.location.href="./data%20analysis.html";//"./graphs.html";//"./data%20analysis.html"
 })
+
+
+
+
 
 
 function toggle(source) {

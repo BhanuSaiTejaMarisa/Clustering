@@ -12,6 +12,9 @@
     <title>Project</title>
 </head>
 <body>
+    <div>
+      <img id="logo" src="https://www.caspiandebt.in/wp-content/themes/caspian/images/debt-logo.png" alt="Caspian Debt">
+    </div>
     <div id="heading">
         <h1>CLUSTERING</h1>
     </div>
@@ -57,16 +60,16 @@
                         <label for="ROA">'Return on Assets (ROA)</label>
                       </div>
                       <div>
-                        <input type="checkbox" id="other" name="interest" value="other">
-                        <label for="other">'Write offs / GLP (YTD)</label>
+                        <input type="checkbox" id="YTD" name="YTD" value="YTD">
+                        <label for="YTD">'Write offs / GLP (YTD)</label>
                       </div>
                       <div>
-                        <input checked type="checkbox" id="coding" name="interest" value="coding">
-                        <label for="coding">Coding</label>
+                        <input checked type="checkbox" id="Q-o-Q" name="Q-o-Q" value="Q-o-Q">
+                        <label for="Q-o-Q">'AUM Growth (Q-o-Q)</label>
                       </div>
                       <div>
-                        <input type="checkbox" id="music" name="interest" value="music">
-                        <label for="music">Music</label>
+                        <input type="checkbox" id="AUM" name="AUM" value="AUM">
+                        <label for="AUM">AUM Yield</label>
                       </div>
                       <div>
                         <input type="checkbox" id="art" name="interest" value="art">
@@ -196,7 +199,8 @@
         </div>
     </div>
     <div id="nextPage">
-      <button id="nextPageButton">View Graphs</button>
+      
+      <button id="nextPageButton">Data Analysis</button>
     </div>
   
     <script src="script.js"></script>

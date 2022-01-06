@@ -2,46 +2,42 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="./styles.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Data Analysis</title>
 </head>
 <body>
     <div id="heading">
         <h2>Exploratory Data Analysis</h2>
     </div>
-    <div id="fourth">
-
-        <div>
-            <h3>DENDOGRAM</h3>
-            <img src="https://via.placeholder.com/550x150" alt="missing values">
-        </div>
-        <div>
-            <h3>CALINSKI-HARABASZ SCORE:</h3>
-            <img src="https://via.placeholder.com/550x150" alt="missing values">
-        </div>
-        <div>
-            <p>CHOOSE THE NUMBER OF CLUSTERS:
-                <input type="number" placeholder="No.">
-            </p>
-            
-            <h3>
-                HIERARCHIAL  CLUSTERING:
-            </h3>
-            <img src="https://via.placeholder.com/550x150" alt="missing values">
-        </div>
-        <div>
-            <p>CHOOSE THE NUMBER OF CLUSTERS:
-                <input type="number" placeholder="No.">
-            </p>
-            <h3>FUZZY MEANS CLUSTERING:</h3>
-            <img src="https://via.placeholder.com/550x150" alt="missing values">
-        </div>
-
-
+    <div>
+        <p>Choose from below to view the graph</p>
     </div>
-    <script src="script.js"></script>
+    <div>
+        <div>
+            <input type="radio" id="huey" name="drone" value="huey"
+                   checked>
+            <label for="huey">Huey</label>
+        </div>
+          
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Dewey</label>
+          </div>
+          
+          <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Louie</label>
+          </div>
+    </div>
 
+    <div id="dataGraphsImg"></div>
+    <div id="thirdPageDiv">
+    <button id="prevPage">Previous Page</button>
+    <button id="thirdPage">Run Models</button>
+    </div>
+    <script src="./script2.js"></script>
 </body>
 </html>
